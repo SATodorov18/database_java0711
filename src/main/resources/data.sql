@@ -1,2 +1,8 @@
-INSERT INTO Player(ID, Name, Nationality, Birth_date, Titles)
-VALUES (1, 'SunkataBa', 'Bulgarian', '1717-17-17', 1717);
+CREATE TABLE Player (
+                        ID INTEGER NOT NULL,
+                        Name VARCHAR(255) NOT NULL,
+                        Nationality VARCHAR(255) NOT NULL,
+                        Birth_date TIMESTAMP,
+                        Titles INTEGER,
+                        PRIMARY KEY(ID)
+);
